@@ -1,0 +1,93 @@
+/* ESTILIZAÇÃO DA PAGINA DE CADASTRO */
+/* Edições blobais + reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-weight: normal;
+}
+/* Estilo do corpo da página */
+body {
+    color: white;    
+}
+
+/* Estilo dos títulos h2 */
+h2 {
+    font-size: 55px;    
+    font-weight: bold;
+    margin-bottom: 32px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+/* Cadastro realizado */
+.cadrealizado {
+    font-size: 65px;
+    white-space: nowrap;
+    margin: 0 50px 0 50px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-15px); }
+}
+.direitosauto:hover {
+    transform: translateY(-5px);
+}
+/* Direitos autorais na pagina de cadastro */
+.direitosauto {
+    margin-top: 45px;
+    padding: 8px;
+    background: white;
+    border-radius: 10px;
+    color:  rgb(8, 8, 81);
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+/* Marca do site */
+.forçavital {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: white;
+    background: linear-gradient(90deg, #c900dbca, hsla(291, 97%, 64%, 0.808));
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+/* Efeito hover nos botões */
+button:hover {
+    transform: translateY(-2px);
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-top: 25px;
+    text-align: center;
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+/* Estilo do container pai */
+.containerPai {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(8, 8, 81),  rgb(71, 176, 238));
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+/* Estilo dos formulários e seções de login e cadastro */
+.formLogin, .facaLogin, .formCadastro, .facaCadastro {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
